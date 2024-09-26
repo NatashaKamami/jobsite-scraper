@@ -3,7 +3,7 @@ import pandas as pd
 from job_scraper import scrape_jobs, close_driver
 from skills import analyze_skills
 
-# Defining job listings URL for Data Science roles in MyJobMag website
+# Defining job listings URL for Data Science and software engineering roles in MyJobMag website
 datascience_url = "https://www.myjobmag.co.ke/search/jobs?q=data+science&location=Nairobi"
 software_url = "https://www.myjobmag.co.ke/search/jobs?q=software+engineering&location=Nairobi"
 
