@@ -15,7 +15,7 @@ def scrape_jobs(url):
     skills = []
     page = 1  # initial counter
 
-    while page <= 10:  # Loop through the first 10 pages
+    while page <= 5:  # Loop through the first 10 pages
         url = f"{url}&page={page}"  # Update URL for pagination
         driver.get(url)
         html = driver.page_source
